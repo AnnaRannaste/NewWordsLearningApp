@@ -29,5 +29,4 @@ public class User {
     @NotEmpty(message = "The field cannot be empty")
     @Size(min = 5, message = "Minimum 5 symbols")
     private String passwordConfirm;
-
 }
