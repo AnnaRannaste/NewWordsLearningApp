@@ -1,9 +1,11 @@
 package com.newwordslearningapp.service;
 
+
+import com.newwordslearningapp.entity.User;
 import com.newwordslearningapp.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.newwordslearningapp.entity.User;
+
 @Service
 public class UserService {
 

@@ -1,9 +1,11 @@
 package com.newwordslearningapp.entity;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
+import java.util.UUID;
 @Entity
 @Table(name= "users")
 @Data

@@ -9,11 +9,15 @@
     <Link rel="stylesheet" href="/style.css">
 </head>
 <body>
+
+
 <div class="container">
-    <h1>Welcome, User<span th:text="${name}">User</span>!</h1>
+    <h1 th:if="${displayName}">Welcome, <span th:text="${displayName}"></span>!</h1>
     <form th:action="@{/logout}" method="post">
         <input type="submit" class="btn btn-primary" value="Sign Out"/>
     </form>
 </div>
+
 </body>
 </html>
+
